@@ -7,7 +7,6 @@ def dibujar_estrella(puntas, color_1, color_2):
     cociente, resto = divmod(puntas_int, 2)
     if resto == 0:
         puntas_int = puntas_int/2
-    
     angulo = 180 - (180/puntas_int)
     while True:
         forward(200)
@@ -17,7 +16,7 @@ def dibujar_estrella(puntas, color_1, color_2):
     end_fill()
     done()
 
-print("¿De cuantas puntas quieres tu estrella? Minimo de 5 puntas e impar. Si pones un numero par saldrá el doble, ya que las puntas pares no se pueden dibujar de una sola trazada.")
+print("¿De cuantas puntas quieres tu estrella? Minimo de 5 puntas e impar.")
 puntas = input()
 print("Y de que dos colores la quieres?")
 color_1 = input()
