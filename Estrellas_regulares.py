@@ -18,7 +18,7 @@ def dibujar_estrella(puntas, color_1, color_2):
 
 print("¿De cuantas puntas quieres tu estrella? Minimo de 5 puntas e impar.")
 puntas = input()
-print("Y de que dos colores la quieres?")
+print("Y de que dos colores la quieres? En inglés.")
 color_1 = input()
 color_2 = input()
 dibujar_estrella(puntas, color_1, color_2)
